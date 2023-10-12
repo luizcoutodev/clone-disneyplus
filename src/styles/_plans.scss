@@ -28,6 +28,11 @@
             max-width: 380px;
             width: 100%;
 
+            @media (max-width: 768px) {
+                padding: 0;
+                padding-bottom: 10px;
+            }
+
             &:nth-child(2) {
                 background-image: url(../images/fundo_combo_plus.png);
                 background-repeat: no-repeat;
